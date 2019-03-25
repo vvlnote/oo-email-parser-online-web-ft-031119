@@ -13,7 +13,7 @@ class EmailParser
   def parse
     puts "#{self.emails}"
     arr = []
-    arr = self.emails.split(/, | /)
+    arr = emails.split(/, | /)
     #arr = arr.collect do |e|
     #  if e.end_with?(',')
     #    e = e.chomp(",")
